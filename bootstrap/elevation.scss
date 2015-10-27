@@ -1,0 +1,32 @@
+$elevation-1: 1px 6px;
+$elevation-2: 3px 10px;
+
+.elevated {
+    transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+    box-shadow: 0px $elevation-1 rgba(0, 0, 0, 0.12), 0px $elevation-1 rgba(0, 0, 0, 0.24);
+
+    &:active {
+        box-shadow: 0px $elevation-2 rgba(0, 0, 0, 0.12), 0px $elevation-2 rgba(0, 0, 0, 0.24);
+    }
+}
+
+.elevated-2 {
+    transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+    box-shadow: 0px $elevation-2 rgba(0, 0, 0, 0.12), 0px $elevation-2 rgba(0, 0, 0, 0.24);
+}
+
+.card {
+    @extend .elevated;
+    border: 0;
+}
+
+.btn {
+    @extend .elevated;
+}
+
+.btn-primary {
+    &:hover, &:active, &:focus {
+        background-color: lighten($btn-primary-bg, 15);
+        border-color: lighten($btn-primary-border, 15);
+    }
+}
