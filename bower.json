@@ -1,0 +1,24 @@
+{
+  "name": "linode-styles",
+  "homepage": "https://github.com/Linode/styles",
+  "authors": [
+    "Drew DeVault <ddevault@linode.com>"
+  ],
+  "description": "Stylesheets for Linode services",
+  "main": "",
+  "moduleType": [],
+  "keywords": [
+    "css"
+  ],
+  "license": "BSD",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "#v4-dev"
+  }
+}
