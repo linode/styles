@@ -1,0 +1,12 @@
+nav {
+    @extend .elevated-2;
+    margin-top: 1em;
+    line-height: 2.5;
+
+    .navbar-nav .nav-link {
+        &.btn {
+            color: white;
+            margin-top: 0.4rem;
+        }
+    }
+}
