@@ -28,3 +28,6 @@ To your scss.
 Bootstrap is pulled in via the `bootstrap` directory, which includes our
 variable overrides and a few other nifty things. The `components` directory
 includes styles for specific components of the UI.
+
+Bower components are checked into version control so that we can use them from
+GitHub pages.
