@@ -2,6 +2,10 @@ nav {
     @extend .elevated-2;
     margin-top: 1em;
     line-height: 2.5;
+    
+    &.navbar-dark .navbar-nav .nav-link {
+        color: white;
+    }
 
     .navbar-nav .nav-link {
         &.btn {
@@ -9,4 +13,13 @@ nav {
             margin-top: 0.4rem;
         }
     }
+}
+
+.navbar-extended {
+    position: absolute;
+    width: calc(100% - 130px);
+    left: 0;
+    bottom: 0;
+    z-index: 1000;
+    margin-left: 130px;
 }
