@@ -2,6 +2,10 @@ nav {
     @extend .elevated-2;
     margin-top: 1em;
     line-height: 2.5;
+
+    .navbar-brand {
+        margin-top: -0.15rem;
+    }
     
     &.navbar-dark .navbar-nav .nav-link {
         color: white;
@@ -22,4 +26,15 @@ nav {
     bottom: 0;
     z-index: 1000;
     margin-left: 130px;
+}
+
+.nav-text {
+    float: left;
+    line-height: 2.5;
+    padding-right: 1rem;
+    margin-top: 0.425rem;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    color: $linode-green;
 }
