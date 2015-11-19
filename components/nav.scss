@@ -6,6 +6,10 @@ nav {
     .navbar-brand {
         margin-top: -0.15rem;
     }
+
+    &.navbar-dark {
+        background: #373A3C;
+    }
     
     &.navbar-dark .navbar-nav .nav-link {
         color: white;
