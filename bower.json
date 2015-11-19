@@ -19,6 +19,7 @@
     "tests"
   ],
   "dependencies": {
-    "bootstrap": "Linode/bootstrap#v4-dev-compiled"
+    "bootstrap": "Linode/bootstrap#v4-dev-compiled",
+    "fontawesome": "latest"
   }
 }
