@@ -31,13 +31,13 @@
   "dependencies": {
     "jquery": "2"
   },
-  "_release": "5ee0d22856",
+  "_release": "4d17a04a27",
   "_resolution": {
     "type": "branch",
     "branch": "v4-dev",
-    "commit": "5ee0d228566c8e3a72367383ec2712884e75ac8b"
+    "commit": "4d17a04a2766315299de7e6f5d0894bb9ed25228"
   },
-  "_source": "git://github.com/twbs/bootstrap.git",
+  "_source": "git://github.com/Linode/bootstrap.git",
   "_target": "v4-dev",
-  "_originalSource": "bootstrap"
+  "_originalSource": "Linode/bootstrap"
 }

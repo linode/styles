@@ -19,6 +19,6 @@
     "tests"
   ],
   "dependencies": {
-    "bootstrap": "#v4-dev"
+    "bootstrap": "Linode/bootstrap#v4-dev"
   }
 }
