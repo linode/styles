@@ -29,15 +29,15 @@
     "test-infra"
   ],
   "dependencies": {
-    "jquery": "2"
+    "jquery": "1.9.1 - 2"
   },
-  "_release": "4d17a04a27",
+  "_release": "d672d26256",
   "_resolution": {
     "type": "branch",
-    "branch": "v4-dev",
-    "commit": "4d17a04a2766315299de7e6f5d0894bb9ed25228"
+    "branch": "v4-dev-compiled",
+    "commit": "d672d26256dbfabf009a76a335c5786900546a0c"
   },
   "_source": "git://github.com/Linode/bootstrap.git",
-  "_target": "v4-dev",
+  "_target": "v4-dev-compiled",
   "_originalSource": "Linode/bootstrap"
 }
