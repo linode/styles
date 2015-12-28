@@ -11,8 +11,8 @@
         position: absolute;
         left: 0; right: 0; top: 0; bottom: 0;
         background:
-            url('/assets/BH_02 Clouds v2.svg'),
-            url('/assets/BH_01 Sky.svg');
+            url('$root/assets/BH_02 Clouds v2.svg'),
+            url('$root/assets/BH_01 Sky.svg');
         background-size: cover;
         animation-name: clouds;
         animation-duration: 150000s;
