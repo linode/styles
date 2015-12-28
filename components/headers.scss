@@ -3,4 +3,27 @@
     margin-bottom: 2rem;
     padding: 5.4rem 0 2rem 0;
     box-shadow: inset 0px -5px 8px -2px rgba(0, 0, 0, 0.12), inset 0px -5px 4px -4px rgba(0, 0, 0, 0.20);
+
+    position: relative;
+
+    .bg-clouds {
+        box-shadow: 0px -5px 8px -2px rgba(0, 0, 0, 0.12) inset, 0px -5px 4px -4px rgba(0, 0, 0, 0.2) inset;
+        position: absolute;
+        left: 0; right: 0; top: 0; bottom: 0;
+        background:
+            url('/assets/BH_02 Clouds v2.svg'),
+            url('/assets/BH_01 Sky.svg');
+        background-size: cover;
+        animation-name: clouds;
+        animation-duration: 150000s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+
+    h1 {
+        margin: 0;
+        margin-top: 2rem;
+        padding: 1rem;
+        @extend .card;
+    }
 }
