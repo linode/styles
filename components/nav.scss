@@ -1,3 +1,14 @@
+@keyframes clouds {
+    0% {
+        background-position:
+            0 0;
+    }
+    100% {
+        background-position:
+            100000rem 0;
+    }
+}
+
 nav {
     @extend .elevated-2;
     margin-top: 1em;
