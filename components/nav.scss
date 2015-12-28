@@ -2,6 +2,7 @@ nav {
     @extend .elevated-2;
     margin-top: 1em;
     line-height: 2.5;
+    z-index: 9999;
 
     .navbar-brand {
         margin-top: -0.15rem;
