@@ -31,11 +31,11 @@
   "dependencies": {
     "jquery": "1.9.1 - 2"
   },
-  "_release": "d672d26256",
+  "_release": "cff16301d1",
   "_resolution": {
     "type": "branch",
     "branch": "v4-dev-compiled",
-    "commit": "d672d26256dbfabf009a76a335c5786900546a0c"
+    "commit": "cff16301d1448748fe33662216b189206f6cb2dd"
   },
   "_source": "git://github.com/Linode/bootstrap.git",
   "_target": "v4-dev-compiled",
