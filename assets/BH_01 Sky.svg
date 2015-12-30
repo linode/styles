@@ -1,11 +1,1 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Sky" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 1406 383" enable-background="new 0 0 1406 383" xml:space="preserve">
-<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="702.4995" y1="367.7794" x2="702.4995" y2="73.6984" gradientTransform="matrix(1 0 0 -1 0 383)">
-	<stop  offset="0" style="stop-color:#3F87C5"/>
-	<stop  offset="1" style="stop-color:#61AFC1"/>
-</linearGradient>
-<rect x="-72.318" y="-57.968" fill="url(#SVGID_1_)" width="1549.635" height="489.774"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1406 383"><linearGradient id="a" gradientUnits="userSpaceOnUse" x1="702.5" y1="367.779" x2="702.5" y2="73.698" gradientTransform="matrix(1 0 0 -1 0 383)"><stop offset="0" stop-color="#3F87C5"/><stop offset="1" stop-color="#61AFC1"/></linearGradient><path fill="url(#a)" d="M-72.318-57.968h1549.635v489.774H-72.318z"/></svg>
