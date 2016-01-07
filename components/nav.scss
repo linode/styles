@@ -53,4 +53,11 @@ nav {
     padding-top: 0;
     padding-bottom: 0;
     color: $linode-green;
+
+    &.pull-right {
+        line-height: 3;
+        padding-right: 0;
+        margin-top: 0;
+        float: right;
+    }
 }
