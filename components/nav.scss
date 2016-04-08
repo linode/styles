@@ -10,21 +10,26 @@
 }
 
 nav {
-    @extend .elevated-2;
-    margin-top: 1em;
     line-height: 2.5;
-    z-index: 9999;
+    background: #373a3c;
 
     .navbar-brand {
         margin-top: -0.15rem;
     }
 
-    &.navbar-dark {
-        background: #373A3C;
-    }
-    
     &.navbar-dark .navbar-nav .nav-link {
         color: white;
+    }
+
+    .navbar-collapse {
+        display: initial;
+        @media (max-width: 557px) {
+            display: none;
+        }
+    }
+
+    a {
+
     }
 
     .navbar-nav .nav-link {
@@ -47,17 +52,16 @@ nav {
 .nav-text {
     float: left;
     line-height: 2.5;
-    padding-right: 1rem;
+    padding-right: 25px;
     margin-top: 0.425rem;
     margin-bottom: 0;
     padding-top: 0;
     padding-bottom: 0;
-    color: $linode-green;
+    text-transform: uppercase;
 
-    &.pull-right {
-        line-height: 3;
-        padding-right: 0;
-        margin-top: 0;
-        float: right;
+    a {
+        text-decoration: none !important;
+        color: $linode-green;
+        font-size: small;
     }
 }
