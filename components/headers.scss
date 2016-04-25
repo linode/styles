@@ -10,10 +10,6 @@
             url($root + '/assets/BH_02 Clouds v2.svg'),
             url($root + '/assets/BH_01 Sky.svg');
         background-size: cover;
-        animation-name: clouds;
-        animation-duration: 150000s;
-        animation-iteration-count: infinite;
-        animation-timing-function: linear;
     }
 
     h1 {
